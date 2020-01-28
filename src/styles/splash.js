@@ -2,7 +2,7 @@ import {StyleSheet} from "react-native";
 
 export default StyleSheet.create({
     container: {
-        backgroundColor: "#fff",
+        backgroundColor: "#0D2573",
         width: "100%",
         height: "100%"
     },
@@ -13,15 +13,14 @@ export default StyleSheet.create({
     },
     header:{
         marginTop: '10%',
-        borderWidth: 1,
-        borderColor: '#DBDFDF',
-        backgroundColor: '#DBDFDF',
         borderRadius: 10,
         alignSelf: 'center',
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        color: '#fff',
     },
     textTitle:{
         alignSelf: "center",
+        color: '#fff',
         fontWeight: 'bold'
     },
     text:{
@@ -29,12 +28,14 @@ export default StyleSheet.create({
         marginLeft: 20,
         marginRight: 20,
         textAlign:'center',
+        color: '#fff',
         alignSelf: "center",
         fontWeight: 'bold'
     },
     textExtend:{
         fontSize: 12,
         textAlign:'center',
+        color: '#fff',
         alignSelf: "center",
         bottom: 3,
         position:'absolute'
